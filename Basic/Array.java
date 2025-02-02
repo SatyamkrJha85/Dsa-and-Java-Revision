@@ -6,6 +6,16 @@ public class Array {
     public static void main(String [] args) {
 
 
+    //    ****  Topic Covered  ******
+
+    //   - Array Initialization
+    //   - Printing simple Array
+    //   - Printing array with user Input
+    //   - Printing 2d Array
+
+    //    ****  Topic End  ******
+
+
         // Basic Array Initializing
 
  /*        int [] name = new int[5];  // array size is 5 and current value is 0
@@ -50,13 +60,14 @@ public class Array {
 
        // 2 D array 
 
-       int [] [] newarray = new int[3][3]; //  Initializing 2d array
+  /*    int [] [] newarray = new int[3][3]; //  Initializing 2d array
 
        int [][] twoarray = {
         {7,8,8},
         {5,9,3},
         {7,4,2}
        };
+
        System.out.println("Printing 2d array elements");
        System.out.println(twoarray[1][2]);
 
@@ -66,6 +77,6 @@ public class Array {
         }
         System.out.println();
        }
-
+*/  
     }
 }

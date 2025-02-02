@@ -4,7 +4,7 @@
         {
             "label": "compile and run with input and output",
             "type": "shell",
-            "command": "javac Basic/Array.java && java Basic.Array < Basic/input.txt > Basic/output.txt",
+            "command": "javac Basic/Patterns.java && java Basic.Patterns < Basic/input.txt > Basic/output.txt",
             "group": {
                 "kind": "build",
                 "isDefault": true
