@@ -78,5 +78,15 @@ public class Array {
         System.out.println();
        }
 */  
+
+System.out.println("Program started..."); // Debugging line
+
+for(int i = 0; i <= 10; i++) {
+   if (i != 4) {
+      System.out.println("Number: " + i);
+   }
+}
+
+System.out.println("Program finished."); // Debugging line
     }
 }

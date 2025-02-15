@@ -17,9 +17,8 @@ public class Patterns {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-
-        int x = scanner.nextInt();
+        // Scanner scanner = new Scanner(System.in);
+        // int x = scanner.nextInt();
 
         // Q1 ) Starting with simple pattern
 
@@ -111,6 +110,59 @@ public class Patterns {
         //     }
         //     System.out.println();
         // }
+
+
+
+        // 1
+        // 2 2
+        // 3 3 3
+        // 4 4 4 4
+
+        // for ( int i =0;i<=4;i++){
+        //     for ( int j=0;j<=i;j++){
+        //         System.out.print(i+"");
+        //     }
+        //     System.out.println();
+        // }
+
+    //      *     4 space 1 star 4 space
+    //     ***    3 space 3 star 3 space 
+    //    *****   2 space  5 star 2 space
+    //   ******** 1 space  7 star 1 space
+
+    // for ( int i =1;i<=4;i++){
+
+    //     for( int j=0;j<4-i+1;j++){
+    //         System.out.print(" ");
+
+    //     }
+    //     for(int k=0;k<2*i-1;k++){  
+    //         System.out.print("*");
+    //     }
+
+
+    //     for( int l=1;l<=4-i+1;l++){
+    //         System.out.print(" ");
+    //     }
+    //     System.out.println();
+    // }
+
+
+    // *****
+    //  ***
+    //   *
+
+
+
+    for (int i =0;i<4;i++){
+        for(int j=0;j<i;j++){
+            System.out.print(" ");
+        }
+        for (int k = 0; k < (2 * (4 - i) - 1); k++) {  // Prints stars
+            System.out.print("*");
+        }
+        System.out.println();
+    }
 
 
     }
