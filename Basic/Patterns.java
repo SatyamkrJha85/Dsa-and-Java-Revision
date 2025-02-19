@@ -154,15 +154,75 @@ public class Patterns {
 
 
 
-    for (int i =0;i<4;i++){
-        for(int j=0;j<i;j++){
+    // for (int i =0;i<4;i++){
+    //     for(int j=0;j<i;j++){
+    //         System.out.print(" ");
+    //     }
+    //     for (int k = 0; k < (2 * (4 - i) - 1); k++) {  // Prints stars 
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+    // }
+
+//      *   
+//     ***  
+//    ***** 
+//   *******
+//    ***** 
+//     ***  
+//      *   
+  
+    //  for(int i =0;i<5;i++){
+    //     for (int j=0;j<4-i;j++){
+    //         System.out.print(" ");
+    //     }
+    //     for(int j=0;j<i*2-1;j++){
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+    //  }
+
+    //  for(int i =0;i<4;i++){
+    //     for (int j=0;j<i;j++){
+    //         System.out.print(" ");
+    //     }
+    //     for(int j=0;j<2*(4-i)-1;j++){
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+    //  }
+
+
+//     Hourglass Pattern
+
+// *******
+//  ***** 
+//   ***  
+//    *   
+//   ***  
+//  ***** 
+// *******
+
+
+     for(int i =0;i<4;i++){
+        for (int j=0;j<i;j++){
             System.out.print(" ");
         }
-        for (int k = 0; k < (2 * (4 - i) - 1); k++) {  // Prints stars
+        for(int j=0;j<2*(4-i)-1;j++){
             System.out.print("*");
         }
         System.out.println();
-    }
+     }
+     for(int i =2;i<5;i++){
+        for (int j=0;j<4-i;j++){
+            System.out.print(" ");
+        }
+        for(int j=0;j<i*2-1;j++){
+            System.out.print("*");
+        }
+        System.out.println();
+     }
+
 
 
     }
