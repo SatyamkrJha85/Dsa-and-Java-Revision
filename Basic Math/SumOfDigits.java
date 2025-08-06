@@ -10,7 +10,7 @@ public class SumOfDigits {
         // Loop until the number becomes 0
         while (n > 0) {
             // Extract the last digit using modulo
-            int digit = n % 10; 
+            int digit = n % 10;
             // Add the digit to the sum
             sum += digit;
             // Remove the last digit by integer division
