@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "Basic.Basic",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "Basic.Sum",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "Table",
+            "request": "launch",
+            "mainClass": "Basic.Table",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "OddEven",
+            "request": "launch",
+            "mainClass": "Basic.OddEven",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
             "name": "SumOfDigits",
             "request": "launch",
             "mainClass": "SumOfDigits",
