@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwapNumber",
+            "request": "launch",
+            "mainClass": "Fundamentals.SwapNumber",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "Sumofsquares",
+            "request": "launch",
+            "mainClass": "Fundamentals.Sumofsquares",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "Fundamentals.Sum",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "Fundamentals.TwoSum",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "Fundamentals.ReverseString",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
             "name": "Basic",
             "request": "launch",
             "mainClass": "Basic.Basic",
