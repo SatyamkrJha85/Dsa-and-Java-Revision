@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DiceProblem",
+            "request": "launch",
+            "mainClass": "Fundamentals.DiceProblem",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
+            "name": "ClosestNumber",
+            "request": "launch",
+            "mainClass": "Fundamentals.ClosestNumber",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
             "name": "SwapNumber",
             "request": "launch",
             "mainClass": "Fundamentals.SwapNumber",
