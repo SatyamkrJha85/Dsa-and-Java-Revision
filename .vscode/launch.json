@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nthTerm",
+            "request": "launch",
+            "mainClass": "Fundamentals.nthTerm",
+            "projectName": "DSA_3d9e9651"
+        },
+        {
+            "type": "java",
             "name": "DiceProblem",
             "request": "launch",
             "mainClass": "Fundamentals.DiceProblem",
